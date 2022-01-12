@@ -5,6 +5,7 @@ import com.tma.repository.SpeakerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.PostConstruct;
 import java.util.List;
 
 @Service("speakerService")
@@ -14,6 +15,11 @@ public class SpeakerServiceImpl implements SpeakerService {
 
     public SpeakerServiceImpl (){
         System.out.println("SpeakerServiceImpl no args constructor");
+    }
+
+    @PostConstruct
+    private void initialize(){
+        System.out.println("We're called after the constructor");
     }
 
     //Constructor Injection
