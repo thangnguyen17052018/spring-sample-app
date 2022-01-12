@@ -15,6 +15,7 @@ import java.util.List;
 @Profile("dev")
 public class HibernateSpeakerRepositoryImpl implements SpeakerRepository {
 
+    @Qualifier("cal")
     @Autowired
     private Calendar cal;
 
