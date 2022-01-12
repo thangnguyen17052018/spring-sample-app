@@ -1,0 +1,7 @@
+AppConfig.class
+com\tma\model\Speaker.class
+com\tma\service\SpeakerService.class
+com\tma\repository\HibernateSpeakerRepositoryImpl.class
+com\tma\service\SpeakerServiceImpl.class
+Application.class
+com\tma\repository\SpeakerRepository.class
