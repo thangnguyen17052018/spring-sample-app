@@ -1,5 +1,4 @@
 import com.tma.service.SpeakerService;
-import com.tma.service.SpeakerServiceImpl;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
